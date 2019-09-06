@@ -22,7 +22,7 @@ alias cdmackup="cd ~/Dropbox/Mackup"
 # ------------------------------------
 alias bci="brew cask install"
 
-alias p="python"
+alias py="python"
 
 # ------------------------------------
 # Ansible alias and function
