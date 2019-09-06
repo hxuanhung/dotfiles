@@ -6,18 +6,15 @@ fal() { alias | grep $1 | sed "s/^\([^=]*\)=\(.*\)/\1 => \2/"| sed "s/['|\']//g"
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
-alias ....="cd ../../.."
-alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Folder Shortcuts
+alias dir="dirs -v"
 alias dl="cd ~/Downloads"
-alias dt="cd ~/Desktop"
 alias dr="cd ~/Dropbox"
 alias ws="cd ~/workspace"
 alias cdmackup="cd ~/Dropbox/Mackup"
-alias dir="dirs -v"
 
 
 # ------------------------------------
@@ -53,8 +50,6 @@ alias dip="docker inspect --format '{{ .NetworkSettings.IPAddress }}'"
 # Bash into running container
 dsh() { docker exec -it $(docker ps -aqf "name=$1") sh; }
 dbash() { docker exec -it $(docker ps -aqf "name=$1") bash; }
-
-
 
 # ------------------------------------
 # Vim alias and function
@@ -175,10 +170,6 @@ alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && kil
 # Hide/show all desktop icons (useful when presenting)
 alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
 alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
-
-# Merge PDF files
-# Usage: `mergepdf -o output.pdf input{1,2,3}.pdf`
-alias mergepdf='/System/Library/Automator/Combine\ PDF\ Pages.action/Contents/Resources/join.py'
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec ${SHELL} -l"
