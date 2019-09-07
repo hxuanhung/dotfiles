@@ -1,4 +1,12 @@
+DEFAULT_USER="hunghoang"
+# ------------------------------------
+# export
+# ------------------------------------
 export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:$PATH
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# Path to your oh-my-zsh installation.
+export ZSH=/Users/hunghoang/.oh-my-zsh
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
@@ -8,12 +16,12 @@ for file in ~/.{path,exports,aliases,functions,extra}; do
 done;
 unset file;
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-# Path to your oh-my-zsh installation.
-export ZSH=/Users/hunghoang/.oh-my-zsh
+source $ZSH/oh-my-zsh.sh
+source ~/.bin/tmuxinator.zsh
+# Git flow completion
+source ~/.git-flow-completion.zsh
+# End------------------------------------
 
-DEFAULT_USER="hunghoang"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -35,18 +43,6 @@ plugins=(
   node
 )
 
-source $ZSH/oh-my-zsh.sh
-# User configuration
-# Vi mode, plugin of oh-my-zsh is not working correctly by the time 26/11/2017
-bindkey -v
-export KEYTIMEOUT=1
-
-bindkey '^ ' autosuggest-execute
-
-source ~/.bin/tmuxinator.zsh
-# Git flow completion
-source ~/.git-flow-completion.zsh
-
 # ------------------------------------
 # ANTIGEN to install plugins of zsh
 # ------------------------------------
@@ -58,6 +54,15 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle lukechilds/zsh-nvm
 # Tell antigen that you're done
 antigen apply
+
+# ------------------------------------
+# VIM
+# ------------------------------------
+# Use vim mode in zsh
+bindkey -v
+export KEYTIMEOUT=1
+# Change cursor indicator in zsh
+source ~/.vim-prompt.zsh
 
 # Enable Exact-match by fzf-insert-history
 FZF_WIDGET_OPTS[insert-history]='--exact'
