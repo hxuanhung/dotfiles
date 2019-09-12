@@ -64,7 +64,6 @@ alias vmackup="vim ~/.mackup.cfg"
 # ------------------------------------
 # Yarn
 # ------------------------------------
-# alias y="yarn" somewhere perhaps in zsh config
 alias ys="yarn start"
 alias yys="yarn && yarn start"
 alias yrs="yarn restart"
