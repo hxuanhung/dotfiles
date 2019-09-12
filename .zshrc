@@ -8,19 +8,7 @@ export NVM_DIR="$HOME/.nvm"
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/hunghoang/.oh-my-zsh
 
-# Load the shell dotfiles, and then some:
-# * ~/.path can be used to extend `$PATH`.
-# * ~/.extra can be used for other settings you don’t want to commit.
-for file in ~/.{path,exports,aliases,functions,extra}; do
-	[ -r "$file" ] && [ -f "$file" ] && source "$file";
-done;
-unset file;
 
-source $ZSH/oh-my-zsh.sh
-source ~/.bin/tmuxinator.zsh
-# Git flow completion
-source ~/.git-flow-completion.zsh
-# End------------------------------------
 
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
@@ -30,7 +18,6 @@ source ~/.git-flow-completion.zsh
 plugins=(
   git
   git-flow
-	osx
   last-working-dir colored-man-pages
   wd
   history
@@ -44,6 +31,22 @@ plugins=(
 )
 
 # ------------------------------------
+# SOURCE FILES
+# ------------------------------------
+
+# Load the shell dotfiles, and then some:
+# * ~/.path can be used to extend `$PATH`.
+# * ~/.extra can be used for other settings you don’t want to commit.
+for file in ~/.{path,exports,aliases,functions,extra}; do
+	[ -r "$file" ] && [ -f "$file" ] && source "$file";
+done;
+unset file;
+source ~/.bin/tmuxinator.zsh
+source ~/.git-flow-completion.zsh
+# Must after plugins
+source $ZSH/oh-my-zsh.sh
+
+# ------------------------------------
 # ANTIGEN to install plugins of zsh
 # ------------------------------------
 source /usr/local/share/antigen/antigen.zsh
@@ -52,7 +55,6 @@ antigen bundle ytet5uy4/fzf-widgets
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle lukechilds/zsh-nvm
-# Tell antigen that you're done
 antigen apply
 
 # ------------------------------------
