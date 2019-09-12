@@ -15,6 +15,7 @@ Library
 .vscode
 yarn.lock
 
+# Must keep like it is
 .config/*
 !.config/karabiner
 .config/karabiner/*
