@@ -9,10 +9,10 @@ Library
 .bin
 .docker
 .gnupg
-.mackup
 .ssh
 .tmuxinator
 .vscode
+.extra
 yarn.lock
 
 # Must keep like it is
