@@ -4,15 +4,13 @@ DEFAULT_USER="hunghoang"
 # ------------------------------------
 export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:$PATH
 export NVM_DIR="$HOME/.nvm"
+export ZSH=/Users/hunghoang/.oh-my-zsh
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 for file in ~/.{path,exports,aliases,functions,extra}; do
   [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
-
-export ZSH=/Users/hunghoang/.oh-my-zsh
-
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
