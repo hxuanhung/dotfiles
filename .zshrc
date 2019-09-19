@@ -70,3 +70,7 @@ FZF_WIDGET_OPTS[insert-history]='--exact'
 FZF_WIDGET_TMUX=1
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Vi-mode: Backspace not working as expected in insert mode
+# https://github.com/denysdovhan/spaceship-prompt/issues/91
+bindkey "^?" backward-delete-char
