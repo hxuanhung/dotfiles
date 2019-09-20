@@ -9,7 +9,6 @@ Library
 .bin
 .docker
 .gnupg
-.ssh
 .tmuxinator
 .vscode
 .extra
@@ -20,3 +19,6 @@ yarn.lock
 !.config/karabiner
 .config/karabiner/*
 !.config/karabiner/karabiner.json
+
+.ssh/*
+!.ssh/config
