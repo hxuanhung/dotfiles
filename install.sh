@@ -19,6 +19,7 @@ brew cask install Dropbox
 brew cask install Lastpass
 brew cask install Chrome
 brew cask install Itsycal
+brew cask install kap
 
 # ZSH
 brew install antigen
