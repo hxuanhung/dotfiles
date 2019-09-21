@@ -1,0 +1,258 @@
+{
+  "settingsVersion": "1.64.6",
+  "exclusionRules": [
+    {
+      "pattern": "https?://nevereatalone.atlassian.net/*",
+      "passKeys": "j"
+    },
+    {
+      "pattern": "https?://inbox.google.com/*",
+      "passKeys": "j"
+    },
+    {
+      "pattern": "https?://keep.google.com/*",
+      "passKeys": "j"
+    },
+    {
+      "pattern": "https?://inbox.google.com/*",
+      "passKeys": "k"
+    },
+    {
+      "pattern": "https?://inbox.google.com/*",
+      "passKeys": "?"
+    },
+    {
+      "pattern": "https?://inbox.google.com/*",
+      "passKeys": "i"
+    },
+    {
+      "pattern": "https?://keep.google.com/*",
+      "passKeys": "k"
+    },
+    {
+      "pattern": "https?://keep.google.com/*",
+      "passKeys": "?"
+    },
+    {
+      "pattern": "https?://keep.google.com/*",
+      "passKeys": "/"
+    },
+    {
+      "pattern": "https?://keep.google.com/*",
+      "passKeys": "x"
+    },
+    {
+      "pattern": "https?://inbox.google.com/*",
+      "passKeys": "o"
+    },
+    {
+      "pattern": "https?://nevereatalone.atlassian.net/*",
+      "passKeys": "k"
+    },
+    {
+      "pattern": "https?://nevereatalone.atlassian.net/*",
+      "passKeys": "p"
+    },
+    {
+      "pattern": "https?://nevereatalone.atlassian.net/*",
+      "passKeys": "n"
+    },
+    {
+      "pattern": "https?://nevereatalone.atlassian.net/*",
+      "passKeys": "1"
+    },
+    {
+      "pattern": "https?://nevereatalone.atlassian.net/*",
+      "passKeys": "?"
+    },
+    {
+      "pattern": "https?://nevereatalone.atlassian.net/*",
+      "passKeys": "o"
+    },
+    {
+      "pattern": "https?://inbox.google.com/*",
+      "passKeys": "r"
+    },
+    {
+      "pattern": "https?://test-admin.workwell.io/*",
+      "passKeys": "?"
+    },
+    {
+      "pattern": "https?://localhost:3015/*",
+      "passKeys": "1"
+    },
+    {
+      "pattern": "https?://localhost:3015/*",
+      "passKeys": "2"
+    },
+    {
+      "pattern": "https?://localhost:3015/*",
+      "passKeys": "3"
+    },
+    {
+      "pattern": "https?://localhost:3015/*",
+      "passKeys": "4"
+    },
+    {
+      "pattern": "https?://localhost:3015/*",
+      "passKeys": "5"
+    },
+    {
+      "pattern": "https?://localhost:3015/*",
+      "passKeys": "6"
+    },
+    {
+      "pattern": "https?://localhost:3015/*",
+      "passKeys": "7"
+    },
+    {
+      "pattern": "https?://localhost:3015/*",
+      "passKeys": "?"
+    },
+    {
+      "pattern": "https?://test-admin.workwell.io/*",
+      "passKeys": "1"
+    },
+    {
+      "pattern": "https?://test-admin.workwell.io/*",
+      "passKeys": "2"
+    },
+    {
+      "pattern": "https?://test-admin.workwell.io/*",
+      "passKeys": "3"
+    },
+    {
+      "pattern": "https?://test-admin.workwell.io/*",
+      "passKeys": "4"
+    },
+    {
+      "pattern": "https?://test-admin.workwell.io/*",
+      "passKeys": "5"
+    },
+    {
+      "pattern": "https?://test-admin.workwell.io/*",
+      "passKeys": "6"
+    },
+    {
+      "pattern": "https?://nevereatalone.atlassian.net/*",
+      "passKeys": "2"
+    },
+    {
+      "pattern": "https?://nevereatalone.atlassian.net/*",
+      "passKeys": "3"
+    },
+    {
+      "pattern": "https?://nevereatalone.atlassian.net/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://calendar.google.com/*",
+      "passKeys": "?"
+    },
+    {
+      "pattern": "https?://calendar.google.com/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://editor.bitwiser.in/*",
+      "passKeys": "esc"
+    },
+    {
+      "pattern": "https?://editor.bitwiser.in/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://codesandbox.io/*",
+      "passKeys": "esc"
+    },
+    {
+      "pattern": "https?://codesandbox.io/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://inbox.google.com/*",
+      "passKeys": "e"
+    },
+    {
+      "pattern": "https?://mail.google.com/*",
+      "passKeys": "?"
+    },
+    {
+      "pattern": "https?://mail.google.com/*",
+      "passKeys": "j"
+    },
+    {
+      "pattern": "https?://mail.google.com/*",
+      "passKeys": "k"
+    },
+    {
+      "pattern": "https?://mail.google.com/*",
+      "passKeys": "e"
+    },
+    {
+      "pattern": "https?://mail.google.com/*",
+      "passKeys": "o"
+    },
+    {
+      "pattern": "https?://mail.google.com/*",
+      "passKeys": "u"
+    },
+    {
+      "pattern": "https?://mail.google.com/*",
+      "passKeys": "x"
+    },
+    {
+      "pattern": "https?://mail.google.com/*",
+      "passKeys": "`"
+    },
+    {
+      "pattern": "https?://mail.google.com/*",
+      "passKeys": "/"
+    },
+    {
+      "pattern": "https?://mail.google.com/*",
+      "passKeys": "gi"
+    },
+    {
+      "pattern": "https?://mail.google.com/*",
+      "passKeys": "r"
+    },
+    {
+      "pattern": "https?://whimsical.co/*",
+      "passKeys": "t"
+    },
+    {
+      "pattern": "https?://app.zeplin.io/*",
+      "passKeys": "?"
+    },
+    {
+      "pattern": "https?://whimsical.co/*",
+      "passKeys": "r"
+    },
+    {
+      "pattern": "https?://www.youtube.com/*",
+      "passKeys": "*"
+    },
+    {
+      "pattern": "https?://www.youtube.com/*",
+      "passKeys": ""
+    }
+  ],
+  "filterLinkHints": false,
+  "waitForEnterForFilteredHints": true,
+  "hideHud": false,
+  "keyMappings": "# Insert your preferred key mappings here.\nunmap <a-p>\nmap gp togglePinTab\nunmap d\nmap <c-d> scrollPageDown\nunmap u\nmap <c-u> scrollPageUp\nunmap g$\nmap g9 lastTab\nunmap <a-f>\nmap F LinkHints.activateModeWithQueue\nunmap <c-e>",
+  "linkHintCharacters": "sadfjklewcmpgh",
+  "linkHintNumbers": "0123456789",
+  "newTabUrl": "about:newtab",
+  "nextPatterns": "next,more,newer,>,›,→,»,≫,>>",
+  "previousPatterns": "prev,previous,back,older,<,‹,←,«,≪,<<",
+  "regexFindMode": false,
+  "ignoreKeyboardLayout": false,
+  "scrollStepSize": 60,
+  "smoothScroll": true,
+  "grabBackFocus": false,
+  "searchEngines": "w: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\n\n# More examples.\n#\n# (Vimium supports search completion Wikipedia, as\n# above, and for these.)\n#\n# g: https://www.google.com/search?q=%s Google\n# l: https://www.google.com/search?q=%s&btnI I'm feeling lucky...\n# y: https://www.youtube.com/results?search_query=%s Youtube\n# gm: https://www.google.com/maps?q=%s Google maps\n# b: https://www.bing.com/search?q=%s Bing\n# d: https://duckduckgo.com/?q=%s DuckDuckGo\n# az: https://www.amazon.com/s/?field-keywords=%s Amazon\n# qw: https://www.qwant.com/?q=%s Qwant",
+  "searchUrl": "https://www.google.com/search?q=",
+  "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n/* linkhint boxes */\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785),\n  color-stop(100%,#FFC542));\nborder: 1px solid #E3BE23;\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: black;\nfont-weight: bold;\nfont-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n}"
+}
