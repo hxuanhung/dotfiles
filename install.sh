@@ -40,3 +40,10 @@ brew install yarn
 brew install git-flow-avh # this one has bugfix branch
 brew install ccat
 brew install fzf
+
+mkdir -p ~/workspace
+
+# VS Code
+brew cask install visual-studio-code-insiders
+# If the following command fails, open vscode and Run: Install 'vscode-insiders' command in PATH
+code-insiders --install-extension Shan.code-settings-sync
