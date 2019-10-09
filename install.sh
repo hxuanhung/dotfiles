@@ -41,6 +41,8 @@ brew install git-flow-avh # this one has bugfix branch
 brew install ccat
 brew install fzf
 
+brew cask install docker
+
 mkdir -p ~/workspace
 
 # VS Code
