@@ -2,7 +2,10 @@ DEFAULT_USER="hunghoang"
 # ------------------------------------
 # export
 # ------------------------------------
-export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:$PATH
+#
+export GOPATH=$HOME/go
+export GOBIN=$HOME/go/bin
+export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:$PATH:/$GOBIN
 export NVM_DIR="$HOME/.nvm"
 export ZSH=/Users/hunghoang/.oh-my-zsh
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
