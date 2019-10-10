@@ -136,6 +136,9 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
+# A global alias enables to create an alias that is expanded anywhere in the command line, not just at the beginning. 
+alias -g G='| grep -i'
+
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
 
