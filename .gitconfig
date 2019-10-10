@@ -171,7 +171,7 @@
 
 [url "git@github.com:"]
 
-	insteadOf = "gh:"
+	insteadOf = https://github.com/
 	pushInsteadOf = "github:"
 	pushInsteadOf = "git://github.com/"
 
@@ -189,8 +189,8 @@
 
 	insteadOf = "gist:"
 [user]
-	name = Hung HOANG
-	email = hung@workwell.io
+	name = Hung Hoang
+	email = hxuanhung@gmail.co
 [gpg]
 	program = /usr/local/bin/gpg
 [difftool "sourcetree"]
@@ -199,3 +199,5 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[url "git@gitlab.com:"]
+	insteadOf = https://gitlab.com/
