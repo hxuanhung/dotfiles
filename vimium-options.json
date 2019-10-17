@@ -230,18 +230,38 @@
       "passKeys": "r"
     },
     {
-      "pattern": "https?://www.youtube.com/*",
-      "passKeys": "*"
+      "pattern": "https?://acreplatforms.atlassian.net/*",
+      "passKeys": "?"
     },
     {
-      "pattern": "https?://www.youtube.com/*",
-      "passKeys": ""
+      "pattern": "https?://acreplatforms.atlassian.net/*",
+      "passKeys": "z"
+    },
+    {
+      "pattern": "https?://acreplatforms.atlassian.net/*",
+      "passKeys": "o"
+    },
+    {
+      "pattern": "https?://acreplatforms.atlassian.net/*",
+      "passKeys": "e"
+    },
+    {
+      "pattern": "https?://acreplatforms.atlassian.net/*",
+      "passKeys": "/"
+    },
+    {
+      "pattern": "https?://whimsical.com/*",
+      "passKeys": "r"
+    },
+    {
+      "pattern": "https?://whimsical.com/*",
+      "passKeys": "t"
     }
   ],
   "filterLinkHints": false,
   "waitForEnterForFilteredHints": true,
   "hideHud": false,
-  "keyMappings": "# Insert your preferred key mappings here.\nunmap <a-p>\nmap gp togglePinTab\nunmap d\nmap <c-d> scrollPageDown\nunmap u\nmap <c-u> scrollPageUp\nunmap g$\nmap g9 lastTab\nunmap <a-f>\nmap F LinkHints.activateModeWithQueue\nunmap <c-e>",
+  "keyMappings": "# Insert your preferred key mappings here.\nunmap <a-p>\nmap gp togglePinTab\nunmap d\nmap <c-d> scrollPageDown\nunmap u\nmap <c-u> scrollPageUp\nunmap g$\nmap g9 lastTab\nunmap <a-f>\nmap F LinkHints.activateModeWithQueue",
   "linkHintCharacters": "sadfjklewcmpgh",
   "linkHintNumbers": "0123456789",
   "newTabUrl": "about:newtab",
