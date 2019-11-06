@@ -41,10 +41,10 @@ plugins=(
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
-source ~/.bin/tmuxinator.zsh
-source ~/.git-flow-completion.zsh
 # Must after plugins
 source $ZSH/oh-my-zsh.sh
+source ~/.bin/tmuxinator.zsh
+source ~/.git-flow-completion.zsh
 
 # ------------------------------------
 # ANTIGEN to install plugins of zsh
