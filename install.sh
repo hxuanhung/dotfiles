@@ -49,3 +49,5 @@ mkdir -p ~/workspace
 brew cask install visual-studio-code-insiders
 # If the following command fails, open vscode and Run: Install 'vscode-insiders' command in PATH
 code-insiders --install-extension Shan.code-settings-sync
+
+brew cask install icons8
