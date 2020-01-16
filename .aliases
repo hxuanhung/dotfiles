@@ -45,6 +45,7 @@ alias dlf="docker logs -f"
 alias dc="docker-compose"
 alias dps='docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"'
 alias dsa='docker stop $(docker ps  -q -a)'
+alias drmf='docker rm -f'
 # Get container IP
 alias dip="docker inspect --format '{{ .NetworkSettings.IPAddress }}'"
 # Bash into running container
