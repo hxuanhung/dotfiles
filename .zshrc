@@ -11,7 +11,7 @@ export ZSH=/Users/hunghoang/.oh-my-zsh
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 for file in ~/.{path,exports,aliases,functions,extra}; do
-  [ -r "$file" ] && [ -f "$file" ] && source "$file";
+    [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
 
@@ -20,18 +20,18 @@ unset file;
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git
-  git-flow
-  last-working-dir colored-man-pages
-  wd
-  history
-  docker
-  docker-compose
-  npm
-  yarn
-  tmux
-  python
-  node
+    git
+    git-flow
+    last-working-dir colored-man-pages
+    wd
+    history
+    docker
+    docker-compose
+    npm
+    yarn
+    tmux
+    python
+    node
 )
 
 # ------------------------------------
@@ -77,3 +77,8 @@ FZF_WIDGET_TMUX=1
 # Vi-mode: Backspace not working as expected in insert mode
 # https://github.com/denysdovhan/spaceship-prompt/issues/91
 bindkey "^?" backward-delete-char
+
+# TODO: remove this one the bug is fixed.
+# macOS Sierra doesn’t seem to remember SSH keys between reboots
+# https://apple.stackexchange.com/questions/254468/macos-sierra-doesn-t-seem-to-remember-ssh-keys-between-reboots
+ssh-add -K ~/.ssh/acre_bitbuket 2>/dev/null;
