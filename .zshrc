@@ -77,8 +77,3 @@ FZF_WIDGET_TMUX=1
 # Vi-mode: Backspace not working as expected in insert mode
 # https://github.com/denysdovhan/spaceship-prompt/issues/91
 bindkey "^?" backward-delete-char
-
-# TODO: remove this one the bug is fixed.
-# macOS Sierra doesn’t seem to remember SSH keys between reboots
-# https://apple.stackexchange.com/questions/254468/macos-sierra-doesn-t-seem-to-remember-ssh-keys-between-reboots
-ssh-add -K ~/.ssh/acre_bitbuket 2>/dev/null;
