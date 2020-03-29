@@ -24,6 +24,7 @@ alias bci="brew cask install"
 
 alias py="python3"
 alias python="python3"
+alias ipy="ipython"
 
 # ------------------------------------
 # Ansible alias and function
