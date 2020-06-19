@@ -22,6 +22,7 @@ brew cask install Lastpass
 brew cask install google-chrome
 brew cask install Itsycal
 brew cask install icons8
+brew cask install notion
 
 # ZSH
 brew install antigen
