@@ -6,6 +6,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'altercation/vim-colors-solarized'
 
 " IDE
 Plugin 'scrooloose/nerdtree'
