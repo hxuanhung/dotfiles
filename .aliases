@@ -57,6 +57,8 @@ dbash() { docker exec -it $(docker ps -aqf "name=$1") bash; }
 # ------------------------------------
 # Vim alias and function
 # ------------------------------------
+alias vi='mvim -v'
+alias vim='mvim -v'
 alias vzsh="vim ~/.zshrc"
 alias vvim="vim ~/.vimrc"
 alias vtmux="vim ~/.tmux.conf"
